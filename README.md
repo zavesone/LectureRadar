@@ -1,1 +1,103 @@
-IyBMZWN0dXJlUmFkYXIg8J+mqwoKQSBUZWxlZ3JhbSBib3QgdGhhdCBoZWxwcyB5b3UgZGlzY292ZXIgYW5kIGF0dGVuZCBzY2llbnRpZmljIGV2ZW50cyAobGVjdHVyZXMsIHNjaG9vbHMsIHdvcmtzaG9wcykgaW4gTW9zY293IGJ5IGFnZ3JlZ2F0aW5nIGluZm9ybWF0aW9uIGZyb20gdmFyaW91cyBzb3VyY2VzIChWSywgVGVsZWdyYW0sIHdlYnNpdGVzKSBhbmQgcHJlc2VudGluZyB0aGVtIGluIGEgY3VzdG9taXphYmxlIGNhbGVuZGFyIGludGVyZmFjZS4KCiMjIFN5c3RlbSBBcmNoaXRlY3R1cmUgCgpgYGBtZXJtYWlkCmZsb3djaGFydCBURApzdWJncmFwaCBEYXRhX0NvbGxlY3Rpb25bIkRhdGEgQ29sbGVjdGlvbiJdCiAgICAgICAgVjJbIlBvc3QgRmlsdGVyIl0KICAgICAgICBWMVsiVksgUGFyc2VyIl0KICAgICAgICBWM1siRXZlbnQgRXh0cmFjdG9yIFZLIl0KICAgICAgICBUMlsiTWVzc2FnZSBGaWx0ZXIiXQogICAgICAgIFQxWyJUZWxlZ3JhbSBQYXJzZXIiXQogICAgICAgIFQzWyJFdmVudCBFeHRyYWN0b3IgVEciXQogICAgICAgIFcyWyJDb250ZW50IEZpbHRlciJdCiAgICAgICAgVzFbIldlYiBTY3JhcGVyIl0KICAgICAgICBXM1siRXZlbnQgRXh0cmFjdG9yIFdlYiJdCiAgICBlbmQKICAgIHN1YmdyYXBoIE5MUF9Qcm9jZXNzaW5nWyJOTFAgUHJvY2Vzc2luZyJdCiAgICAgICAgTjJbIkV2ZW50IFJlbWluZGVycyJdCiAgICAgICAgTjFbIk5vdGlmaWNhdGlvbiBNYW5hZ2VyIl0KICAgICAgICBOM1siTmV3IEV2ZW50IEFsZXJ0cyJdCiAgICAgICAgTjRbIkN1c3RvbSBOb3RpZmljYXRpb25zIl0KICAgICAgICBONVsiRXZlbnQgVHlwZSBDbGFzc2lmaWVyIl0KICAgICAgICBFMVsiRXZlbnQgVmFsaWRhdG9yIl0KICAgIGVuZApzdWJncmFwaCBEYXRhX1N0b3JhZ2VbIkRhdGEgU3RvcmFnZSJdCiAgICAgICAgREIxWyJQb3N0Z3JlU1FMIEV2ZW50cyJdCiAgICAgICAgREIyWyJSZWRpcyBDYWNoZSJdCiAgICAgICAgREIzWyJVc2VyIERhdGEiXQogICAgICAgIERCNFsiVXNlciBTZXR0aW5ncyJdCiAgICBlbmQKc3ViZ3JhcGggQVBJX1NlcnZpY2VbIkFQSSBTZXJ2aWNlIl0KICAgICAgICBBMVsiRmFzdEFQSSBTZXJ2ZXIiXQogICAgICAgIEEyWyJFdmVudCBBUEkiXQogICAgICAgIEEzWyJVc2VyIEFQSSJdCiAgICAgICAgQTRbIlNldHRpbmdzIEFQSSJdCiAgICAgICAgQTVbIkFQSSBHYXRld2F5Il0KICAgIGVuZApzdWJncmFwaCBCb3RfRnJhbWV3b3JrWyJCb3QgRnJhbWV3b3JrIl0KICAgICAgICBCMlsiQ29tbWFuZCBSb3V0ZXIiXQogICAgICAgIEIxWyJUZWxlZ3JhbSBCb3QiXQogICAgICAgIEIzWyJBY3Rpb24gSGFuZGxlciJdCiAgICBlbmQKc3ViZ3JhcGggQ2FsZW5kYXJfSW50ZXJmYWNlWyJDYWxlbmRhciBJbnRlcmZhY2UiXQogICAgICAgIEMxWyJDYWxlbmRhciBWaWV3Il0KICAgICAgICBDMlsiRGF5IFZpZXciXQogICAgICAgIEMzWyJXZWVrIFZpZXciXQogICAgICAgIEM0WyJNb250aCBWaWV3Il0KICAgIGVuZApzdWJncmFwaCBGaWx0ZXJfU3lzdGVtWyJGaWx0ZXIgU3lzdGVtIl0KICAgICAgICBGMVsiRmlsdGVyIE1hbmFnZXIiXQogICAgICAgIEYyWyJUeXBlIEZpbHRlcnMiXQogICAgICAgIEYzWyJEYXRlIEZpbHRlcnMiXQogICAgICAgIEY0WyJMb2NhdGlvbiBGaWx0ZXJzIl0KICAgIGVuZApzdWJncmFwaCBVc2VyX1NldHRpbmdzWyJVc2VyIFNldHRpbmdzIl0KICAgICAgICBTMVsiU2V0dGluZ3MgTWFuYWdlciJdCiAgICAgICAgUzJbIk5vdGlmaWNhdGlvbnMiXQogICAgICAgIFMzWyJEaXNwbGF5IFByZWZlcmVuY2VzIl0KICAgICAgICBTNFsiRmlsdGVyIFByZXNldHMiXQogICAgZW5kCgogICAgVjEgLS0+IFYyCiAgICBWMiAtLT4gVjMKICAgIFQxIC0tPiBUMgogICAgVDIgLS0+IFQzCiAgICBXMSAtLT4gVzIKICAgIFcyIC0tPiBXMwogICAgVjMgJiBUMyAmIFczIC0tPiBOMQogICAgTjEgLS0+IE4yCiAgICBOMiAtLT4gTjMgJiBONCAmIE41CiAgICBOMyAmIE40ICYgTjUgLS0+IEUxCiAgICBFMSAtLT4gREIxCiAgICBEQjEgLS0+IERCMiAmIERCMyAmIERCNAogICAgREIyICYgREIzICYgREI0IC0tPiBBMQogICAgQTEgLS0+IEEyICYgQTMgJiBBNAogICAgQTIgJiBBMyAmIEE0IC0tPiBBNQogICAgQTUgLS0+IEIxCiAgICBCMSAtLT4gQjIKICAgIEIyIC0tPiBCMwogICAgQjMgLS0+IEMxICYgRjEgJiBTMQogICAgQzEgLS0+IEMyICYgQzMgJiBDNAogICAgRjEgLS0+IEYyICYgRjMgJiBGNAogICAgUzEgLS0+IFMyICYgUzMgJiBTNApgYGAKCipOb3RlOiBUaGlzIGlzIGEgcHJlbGltaW5hcnkgc3lzdGVtIGFyY2hpdGVjdHVyZSB0aGF0IG1heSBldm9sdmUgYXMgdGhlIHByb2plY3QgZGV2ZWxvcHMuKgoKIyMgRmVhdHVyZXMKCiMjIyBEYXRhIENvbGxlY3Rpb24KLSBWSyBwdWJsaWMgcGFnZXMgcGFyc2VyCi0gVGVsZWdyYW0gY2hhbm5lbHMgcGFyc2VyCi0gV2Vic2l0ZSBzY3JhcGVyCi0gQ29udGVudCBmaWx0ZXJpbmcgYW5kIHZhbGlkYXRpb24KCiMjIyBFdmVudCBQcm9jZXNzaW5nCi0gTkxQLWJhc2VkIGV2ZW50IGNsYXNzaWZpY2F0aW9uCi0gU21hcnQgbm90aWZpY2F0aW9uIHN5c3RlbQotIEV2ZW50IHZhbGlkYXRpb24gYW5kIGVucmljaG1lbnQKLSBDdXN0b20gcmVtaW5kZXIgc3lzdGVtCgojIyMgVXNlciBJbnRlcmZhY2UKLSBJbnRlcmFjdGl2ZSBjYWxlbmRhciB2aWV3cwotIEZsZXhpYmxlIGZpbHRlcmluZyBzeXN0ZW0KLSBDdXN0b21pemFibGUgbm90aWZpY2F0aW9ucwotIFVzZXIgcHJlZmVyZW5jZSBtYW5hZ2VtZW50CgojIyBUZWNoIFN0YWNrCgotIEJhY2tlbmQ6IFB5dGhvbiwgRmFzdEFQSQotIERhdGFiYXNlOiBQb3N0Z3JlU1FMLCBSZWRpcwotIE5MUDogc3BhQ3kvTkxUSywtIEJvdCBGcmFtZXdvcms6IHB5dGhvbi10ZWxlZ3JhbS1ib3QKLSBGcm9udGVuZDogVGVsZWdyYW0gQm90IEFQSQoKIyMgR2V0dGluZyBTdGFydGVkCgpbSW5zdGFsbGF0aW9uIGFuZCBzZXR1cCBpbnN0cnVjdGlvbnMgd2lsbCBiZSBhZGRlZF0KCiMjIENvbnRyaWJ1dGluZwoKV2Ugd2VsY29tZSBjb250cmlidXRpb25zISBXaGV0aGVyIHlvdSdyZSBpbnRlcmVzdGVkIGluOgotIEJhY2tlbmQgZGV2ZWxvcG1lbnQKLSBOTFAgYW5kIGRhdGEgcHJvY2Vzc2luZwotIEJvdCBpbnRlcmZhY2UgZGVzaWduCi0gRG9jdW1lbnRhdGlvbiBhbmQgdGVzdGluZwoKUGxlYXNlIHJlYWNoIG91dCBpZiB5b3UnZCBsaWtlIHRvIGNvbnRyaWJ1dGUuCgojIyBMaWNlbnNlCgpUaGlzIHByb2plY3QgaXMgdW5kZXIgZGV2ZWxvcG1lbnQuIExpY2Vuc2UgZGV0YWlscyB3aWxsIGJlIGFkZGVkIHNvb24u
+# LectureRadar 🎯
+
+A Telegram bot that helps you discover and attend scientific events (lectures, schools, workshops) in Moscow. Never miss an interesting lecture again!
+
+## Project Vision 🚀
+
+LectureRadar aims to create a centralized platform for discovering academic and scientific events in Moscow, making it easier for knowledge enthusiasts to:
+- Find relevant lectures and workshops from multiple sources
+- Get personalized event recommendations
+- Connect with fellow learners
+- Access a unified calendar of academic events
+
+## Development Status ⚡
+
+This project is currently in active development. We are working on:
+- Core data collection infrastructure
+- Event parsing and classification
+- Bot interface development
+- Calendar integration
+
+## System Architecture 📐
+
+[Current Architecture Diagram]
+
+```mermaid
+[Your existing mermaid diagram here]
+```
+
+*Note: This is a preliminary system architecture that may evolve as the project develops.*
+
+## Features 🌟
+
+### Core Features
+- **Multi-Source Event Aggregation**: Automatically collects events from VK, Telegram, and educational websites
+- **Smart Filtering**: Uses NLP to classify and categorize events
+- **Interactive Calendar**: Customizable calendar interface for event management
+- **Personalized Notifications**: Get alerts based on your interests and preferences
+
+### Upcoming Features
+- Location-based event suggestions
+- Event rating and recommendations
+- Community features and event companion matching
+- Integration with popular calendar apps
+
+## Tech Stack 💻
+
+- **Backend**: Python, FastAPI
+- **Database**: PostgreSQL, Redis
+- **NLP**: spaCy/NLTK
+- **Bot Framework**: python-telegram-bot
+- **Frontend**: Telegram Bot API
+
+## Getting Started 🏃‍♂️
+
+### Prerequisites
+- Python 3.8+
+- PostgreSQL
+- Redis
+- Telegram Bot Token
+
+### Quick Start
+1. Clone the repository
+```bash
+git clone https://github.com/zavesone/LectureRadar.git
+cd LectureRadar
+```
+
+2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+3. Set up environment variables
+```bash
+cp .env.example .env
+# Edit .env with your configuration
+```
+
+## Contributing 🤝
+
+We welcome contributions! If you're interested in:
+- Backend development
+- NLP and data processing
+- Bot interface design
+- Documentation and testing
+
+See our [Contributing Guidelines](CONTRIBUTING.md) for more details.
+
+## Documentation 📚
+
+- [API Documentation](docs/API.md)
+- [Development Setup](docs/DEVELOPMENT.md)
+- [Bot Commands](docs/COMMANDS.md)
+
+## Contact 📧
+
+- GitHub Issues: For bug reports and feature requests
+- Telegram: @lectureradar_admin
+- Email: [coming soon]
+
+## License 📝
+
+This project is under development. License details will be added soon.
