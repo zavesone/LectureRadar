@@ -1,18 +1,8 @@
-# LectureRadar 🎯
+# LectureRadar
 
-A Telegram bot that helps you discover and attend scientific lectures and events in Moscow. The bot aggregates information about scientific events (lectures, schools, workshops) from various sources (VK, Telegram, websites) and presents them in a customizable calendar interface.
+A Telegram bot that helps you discover and attend scientific events (lectures, schools, workshops) in Moscow by aggregating information from various sources (VK, Telegram, websites) and presenting them in a customizable calendar interface.
 
-## Project Vision 🚀
-
-LectureRadar aims to create a centralized platform for discovering academic and scientific events in Moscow, making it easier for knowledge enthusiasts to:
-- Find relevant lectures and workshops
-- Get personalized event recommendations
-- Connect with fellow learners
-- Never miss important educational opportunities
-
-## System Architecture 📐
-
-Below is the preliminary system architecture diagram. This design may evolve as the project develops:
+## System Architecture 
 
 ```mermaid
 flowchart TD
@@ -72,115 +62,74 @@ flowchart TD
         S4["Filter Presets"]
     end
 
-    V1 -- Posts --> V2
-    V2 -- Event Data --> V3
-    T1 -- Messages --> T2
-    T2 -- Event Data --> T3
-    W1 -- HTML --> W2
-    W2 -- Event Data --> W3
+    V1 --> V2
+    V2 --> V3
+    T1 --> T2
+    T2 --> T3
+    W1 --> W2
+    W2 --> W3
+    V3 & T3 & W3 --> N1
     N1 --> N2
-    N2 -- Parallel --> N3 & N4 & N5
-    V3 --> N1
-    T3 --> N1
-    W3 --> N1
-    N3 --> E1
-    N4 --> E1
-    N5 --> E1
+    N2 --> N3 & N4 & N5
+    N3 & N4 & N5 --> E1
     E1 --> DB1
-    DB1 -- Cache --> DB2
-    DB1 -- Users --> DB3
-    DB1 -- Settings --> DB4
-    DB2 --> A1
-    DB3 --> A1
-    DB4 --> A1
-    A1 -- REST --> A2 & A3 & A4
-    A2 --> A5
-    A3 --> A5
-    A4 --> A5
-    B1 -- Commands --> B2
-    B2 -- Actions --> B3
+    DB1 --> DB2 & DB3 & DB4
+    DB2 & DB3 & DB4 --> A1
+    A1 --> A2 & A3 & A4
+    A2 & A3 & A4 --> A5
     A5 --> B1
+    B1 --> B2
+    B2 --> B3
     B3 --> C1 & F1 & S1
-    C1 -- Display --> C2 & C3 & C4
-    F1 -- Setup --> F2 & F3 & F4
-    S1 -- Configure --> S2 & S3 & S4
-    S2 --> N1
-    N1 -- Schedule --> N2 & N3 & N4
+    C1 --> C2 & C3 & C4
+    F1 --> F2 & F3 & F4
+    S1 --> S2 & S3 & S4
 ```
 
-## Features 🌟
+*Note: This is a preliminary system architecture that may evolve as the project develops.*
 
-### Core Functionality
-- **Multi-Source Event Aggregation**: Automatically collects scientific events from:
-  - VK public pages
-  - Telegram channels
-  - Educational websites
-- **Smart Notifications**: Receive personalized notifications about upcoming events based on your interests
-- **Interactive Calendar**: View and manage events in a convenient calendar interface
-- **Location-Based Updates**: Get informed about events happening near you
+## Features
 
-### Social Features
-- **Meetup Organization**: Create and join meetups with other lecture enthusiasts
-- **Random Coffee Matching**: Find lecture companions through our random matching system
-- **Community Building**: Connect with like-minded individuals interested in scientific lectures
+### Data Collection
+- VK public pages parser
+- Telegram channels parser
+- Website scraper
+- Content filtering and validation
 
-### Personalization
-- **Interest-Based Filtering**: Set your preferred topics and receive relevant event notifications
-- **Custom Schedule**: Configure notification timing based on your availability
-- **Event History**: Keep track of lectures you've attended and save ones for later
+### Event Processing
+- NLP-based event classification
+- Smart notification system
+- Event validation and enrichment
+- Custom reminder system
 
-## Getting Started 🚀
+### User Interface
+- Interactive calendar views
+- Flexible filtering system
+- Customizable notifications
+- User preference management
 
-### Prerequisites
-- Python 3.8+
-- Telegram account
-- API keys (details in setup section)
+## Tech Stack
 
-### Installation
+- Backend: Python, FastAPI
+- Database: PostgreSQL, Redis
+- NLP: spaCy/NLTK
+- Bot Framework: python-telegram-bot
+- Frontend: Telegram Bot API
 
-1. Clone the repository
-```bash
-git clone https://github.com/zavesone/LectureRadar.git
-cd LectureRadar
-```
+## Getting Started
 
-2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
+[Installation and setup instructions will be added]
 
-3. Configure environment variables
-```bash
-cp .env.example .env
-# Edit .env with your API keys and configuration
-```
-
-## Contributing 🤝
+## Contributing
 
 We welcome contributions! Whether you're interested in:
-- Backend development (Python, FastAPI)
+- Backend development
 - NLP and data processing
-- Frontend and UI/UX design
+- Bot interface design
 - Documentation and testing
 
-Here's how you can help:
+Please reach out if you'd like to contribute.
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+## License
 
-## License 📝
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact 📮
-
-Project Link: [https://github.com/zavesone/LectureRadar](https://github.com/zavesone/LectureRadar)
-
-## Acknowledgments 🙏
-
-- Thanks to all the educational institutions in Moscow for providing event information
-- Contributors and community members
-- Libraries and tools used in this project
+This project is under development. License details will be added soon.
