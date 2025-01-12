@@ -1,4 +1,5 @@
 # LectureRadar 🎯
+### This is an ongoing project!
 
 A Telegram bot that helps you discover and attend scientific events (lectures, schools, workshops) in Moscow. Never miss an interesting lecture again!
 
